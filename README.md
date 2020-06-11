@@ -1,5 +1,5 @@
 # Introduction
-This sample code shows an example utilizing HTTP standard client-size caching.
+This sample code shows an example using HTTP standard client-size caching.
 
 It has two components:
 * cache-server: this API returns a simple String, but includes a pause that makes the request take several seconds.  It includes an HTTP _max-age_ header which the client can implement.
